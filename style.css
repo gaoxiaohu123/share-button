@@ -1,0 +1,148 @@
+ul {
+    list-style: none;
+}
+.social {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    top: 25%;
+    left: 45%;
+    position: absolute;
+
+}
+.fa-plus {
+    width: 50px;
+    height: 50px;
+    font-size: 20px !important;
+    color: #fe5722;
+    cursor: pointer;
+    line-height: 50px !important;
+    background: #fff;
+    border-radius: 100%;
+    display: block;
+    z-index: 1;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);    
+    -webkit-transform:rotate(0deg); 
+    -o-transform:rotate(0deg);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    -webkit-box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.24);
+    -ms-box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.24);
+    -o-box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.24);
+    box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.24);
+}
+.social-item {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.social-item a {
+    display: block;
+    width: inherit;
+    height: inherit;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    pointer-events: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.social-item a i {
+    line-height: 30px;
+}
+.social-item:nth-child(1) a {
+    -webkit-transform: rotate(-105deg);
+    -ms-transform: rotate(-105deg);
+    -moz-transform: rotate(-105deg);
+    -o-transform: rotate(-105deg);
+    transform: rotate(-105deg);
+}
+.social-item:nth-child(2) a {
+    -webkit-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.social-item:nth-child(3) a {
+    -webkit-transform: rotate(-26deg);
+    -ms-transform: rotate(-26deg);
+    -moz-transform: rotate(-26deg);
+    -o-transform: rotate(-26deg);
+    transform: rotate(-26deg);
+}
+
+.social-item a .fa-weixin {
+    color: #609700;
+}
+.social-item a .fa-qq {
+    color: #16bbfa;
+}
+.social-item a .fa-weibo {
+    color: #e6162d;
+}
+.active .social-item:nth-child(1) {
+    -webkit-transform: rotate(105deg) translateX(-60px);
+    -ms-transform: rotate(105deg) translateX(-60px);
+    -moz-transform: rotate(105deg) translateX(-60px);
+    -o-transform: rotate(105deg) translateX(-60px);
+    transform: rotate(105deg) translateX(-60px);
+}
+.active .social-item:nth-child(2) {
+    -webkit-transform: rotate(65deg) translateX(-60px);
+    -ms-transform: rotate(65deg) translateX(-60px);
+    -moz-transform: rotate(65deg) translateX(-60px);
+    -o-transform: rotate(65deg) translateX(-60px);
+    transform: rotate(65deg) translateX(-60px);
+}
+.active .social-item:nth-child(3) {
+    -webkit-transform: rotate(25deg) translateX(-60px);
+    -ms-transform: rotate(25deg) translateX(-60px);
+    -moz-transform: rotate(25deg) translateX(-60px);
+    -o-transform: rotate(25deg) translateX(-60px);
+    transform: rotate(25deg) translateX(-60px);
+}
+.active .social-item {
+    opacity: 1;
+}
+.active .fa-plus {
+    background-color: #fe5722;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);    
+    -webkit-transform:rotate(-45deg); 
+    -o-transform:rotate(-45deg);
+}
